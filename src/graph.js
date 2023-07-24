@@ -1,0 +1,26 @@
+export default {
+  nodes: [
+    { name: "Carry" },
+    { name: "Lebron" },
+    { name: "Kobey" },
+    { name: "Messi" },
+    { name: "Ronaldo" },
+    { name: "Kohali" },
+    { name: "Dhoni" },
+    { name: "Shack" },
+    { name: "Willimson" },
+    { name: "Pandya" },
+  ],
+  links: [
+    { source: 0, target: 1, value: new Date("2023-07-22 10:30:00") },
+    { source: 0, target: 2, value: new Date("2023-07-22 11:15:00") },
+    { source: 1, target: 3, value: new Date("2023-07-22 12:00:00") },
+    { source: 2, target: 4, value: new Date("2023-07-22 13:45:00") },
+    { source: 3, target: 4, value: new Date("2023-07-22 14:30:00") },
+    { source: 1, target: 5, value: new Date("2023-07-22 15:15:00") },
+    { source: 6, target: 7, value: new Date("2023-07-22 16:00:00") },
+    { source: 8, target: 9, value: new Date("2023-07-22 16:45:00") },
+    { source: 6, target: 8, value: new Date("2023-07-22 17:30:00") },
+    { source: 3, target: 9, value: new Date("2023-07-22 18:15:00") },
+  ],
+};
